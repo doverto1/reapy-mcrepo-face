@@ -1,0 +1,1 @@
+Get-ChildItem Z:\Desktop\powershell\Company\*.txt -Recurse | Remove-Item -confirm
