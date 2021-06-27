@@ -1,0 +1,5 @@
+Name, Value
+l, eventlog
+list, get-childitem
+p, ping
+w, winver
