@@ -15,4 +15,3 @@ $colorpicker
 #remove element from array list
 $null = $colorpicker.Remove('gray')
 $colorpicker
-

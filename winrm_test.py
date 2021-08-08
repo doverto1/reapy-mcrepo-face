@@ -1,5 +1,7 @@
 import winrm
 from pprint import pprint
-s = winrm.Session('ec2-54-187-203-155.us-west-2.compute.amazonaws.com', auth=('Administrator', 'XXXXXX'))
+ps_script = """Get-ChildItem C:\\Users\\Administrator\\aws-scripts"""
+s = winrm.Session('44.234.40.40', auth=('Administrator', 'E=c@&fnm!X5yNirz=C9zy!85Pg8l;Qls'))
+# r = s.run_ps(ps_script)
 r = s.run_cmd('ipconfig', ['/all'])
-print(r.std_out)
+pprint(r.std_out.decode("utf-8")) 

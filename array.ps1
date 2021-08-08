@@ -23,3 +23,14 @@ $colorpicker += @(
     'cyan'
 )
 $colorpicker
+
+
+#also
+$colorPicker = 'blue', 'white', 'yellow','black'
+$colorPicker[3] = 'green'
+$colorPicker += 'black'
+$colorPicker += 'pink','cyan'
+
+foreach ($color in $colorPicker) {
+    $color
+}

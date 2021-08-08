@@ -1,0 +1,1 @@
+Rename-Computer -NewName "DC1" -DomainCredential Hoth\Administrator -Restart
