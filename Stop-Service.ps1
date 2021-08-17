@@ -1,0 +1,1 @@
+Import-Csv -Path Z:\Desktop\reapy-mcrepo-face\test\service.csv | Stop-Service -PassThru
